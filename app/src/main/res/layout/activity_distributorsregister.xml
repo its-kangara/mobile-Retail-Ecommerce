@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.chura.myapplication.Distributorsregister">
+
+
+    <Button
+        android:id="@+id/btregister"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/confirmpassword"
+        android:layout_alignRight="@+id/confirmpassword"
+        android:layout_below="@+id/confirmpassword"
+        android:layout_marginTop="71dp"
+        android:layout_x="65dp"
+        android:layout_y="397dp"
+        android:background="@color/colorPrimary"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="71dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="198dp"
+        android:layout_x="73dp"
+        android:layout_y="318dp"
+        android:ems="10"
+        android:hint="Confirm password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/confirmpassword"
+        android:layout_alignStart="@+id/confirmpassword"
+        android:layout_centerVertical="true"
+        android:layout_x="70dp"
+        android:layout_y="264dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_x="68dp"
+        android:layout_y="212dp"
+        android:ems="10"
+        android:hint="Telphone "
+        android:inputType="textPersonName|phone" />
+
+    <EditText
+        android:id="@+id/distributorname"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_above="@+id/telephone"
+        android:layout_alignLeft="@+id/telephone"
+        android:layout_alignStart="@+id/telephone"
+        android:layout_marginBottom="11dp"
+        android:layout_x="68dp"
+        android:layout_y="153dp"
+        android:ems="10"
+        android:hint="distributer group name
+"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/distributername"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/distributername"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_x="99dp"
+        android:layout_y="41dp"
+        app:srcCompat="@mipmap/mretail2" />
+
+
+</AbsoluteLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chura.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterRetailers" />
+        <activity android:name=".Distributorhome" />
+        <activity android:name=".RetailerHome" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".DistributorProductorslist" />
+        <activity android:name=".Distributorsregister" />
+        <activity android:name=".productadd" />
+        <activity android:name=".Productslist" />
+        <activity android:name=".Productitemlist" />
+        <activity android:name=".Distributorlist" />
+        <activity android:name=".Distributorview" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Details"
+            android:label="@string/title_activity_details"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Retailersview" />
+        <activity android:name=".Retailerlistview" />
+        <activity android:name=".search" />
+        <activity android:name=".Ratings" />
+        <activity android:name=".Retailers"></activity>
+    </application>
+
+</manifest>

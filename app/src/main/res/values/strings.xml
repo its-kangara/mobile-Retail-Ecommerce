@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="register">Register as a retailer!</string>
+    <string name="firstnameerror">Enter your first name</string>
+    <string name="lastnameerror">Enter your last name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="phoneeerror">Enter a valid mobilenumber</string>
+    <string name="passworderror">Enter a valid password</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_retailerview">Retailerview</string>
+    <string name="title_activity_retailerlistview">Retailerlistview</string>
+
+
+</resources>

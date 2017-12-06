@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chura.myapplication.RetailerHome">
+
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:layout_x="52dp"
+        android:layout_y="159dp"
+        android:background="@color/colorPrimary"
+        android:text="viewDistributors"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/vproducts"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:layout_x="55dp"
+        android:layout_y="241dp"
+        android:background="@color/colorPrimary"
+        android:text="view Products"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/vdistributor"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:layout_x="55dp"
+        android:layout_y="86dp"
+        android:background="@color/colorPrimary"
+        android:text="@android:string/search_go"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+</AbsoluteLayout>
